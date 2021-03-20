@@ -3,19 +3,19 @@ An example of communication between your project in Xamarin.Forms and a REST API
 
 #### Some screenshots bellow
 <p align="left">
-  <https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/homepage.jpg" width="200" title="hover text">
+  <img src="https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/homepage.jpg" width="200" title="hover text">
 </p>
 
 <p align="left">
-  <https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/not-internet.jpg" width="200" title="hover text">
+  <img src="https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/not-internet.jpg" width="200" title="hover text">
 </p>
 
 <p align="left">
-  <https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/datadefinition.jpg" width="200" title="hover text">
+  <img src="https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/datadefinition.jpg" width="200" title="hover text">
 </p>
                                                                                                                           
 <p align="left">
-  <https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/moredatadef.jpg" width="200" title="hover text">
+  <img src="https://github.com/strikervc/TestingAPICommunication/blob/main/Screenshots/moredatadef.jpg" width="200" title="hover text">
 </p>
                                                                                                                           
                                                                                                                           
