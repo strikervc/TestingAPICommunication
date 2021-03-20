@@ -17,7 +17,7 @@ namespace TestingAPICommunication.ViewModels
     public class MainViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        ObservableCollection<Item> Items { get; set; } = new ObservableCollection<Item>();
+        public ObservableCollection<Item> Items { get; set; } = new ObservableCollection<Item>();
        
         public ICommand WordCommand { get; set; }
 
@@ -36,17 +36,15 @@ namespace TestingAPICommunication.ViewModels
         {
             if (Connectivity.NetworkAccess == NetworkAccess.Internet)
             {
-                string meaning = "";
+               
+                Items.Clear();
 
                 definition = await wordService.GetDefinitionAsync(Word);
 
                 foreach (Item item in definition.Definitions)
                 {
                     Items.Add(item);
-                    meaning = item.Definition;   
                 }
-
-                await App.Current.MainPage.DisplayAlert("Definition", meaning, "Ok");
 
             }
             else

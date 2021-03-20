@@ -13,8 +13,8 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label x:Name="definition" Text="{Binding Definition}"/>
+                            <StackLayout Margin="10, 0, 10, 10">
+                                <Label x:Name="definition" Text="{Binding Definition}" FontAttributes="Bold" FontSize="16"/>
                                 <Label x:Name="parofspeech" Text="{Binding PartOfSpeech}" />
                             </StackLayout>
                         </ViewCell>
